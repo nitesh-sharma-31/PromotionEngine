@@ -1,0 +1,11 @@
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.BusinessLogic\bin\Debug\App.PromotionEngine.BusinessLogic.dll
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.BusinessLogic\bin\Debug\App.PromotionEngine.BusinessLogic.pdb
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.BusinessLogic\bin\Debug\App.PromotionEngine.Model.dll
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.BusinessLogic\bin\Debug\App.PromotionEngine.Model.pdb
+C:\PocApp\App.PromotionEngine\Debug\App.PromotionEngine.BusinessLogic.dll
+C:\PocApp\App.PromotionEngine\Debug\App.PromotionEngine.BusinessLogic.pdb
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.BusinessLogic\obj\Debug\App.PromotionEngine.BusinessLogic.csprojAssemblyReference.cache
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.BusinessLogic\obj\Debug\App.PromotionEngine.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.BusinessLogic\obj\Debug\App.PromotionEngine.BusinessLogic.csproj.CopyComplete
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.BusinessLogic\obj\Debug\App.PromotionEngine.BusinessLogic.dll
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.BusinessLogic\obj\Debug\App.PromotionEngine.BusinessLogic.pdb

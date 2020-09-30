@@ -1,0 +1,11 @@
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.UI\bin\Debug\App.PromotionEngine.UI.exe.config
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.UI\bin\Debug\App.PromotionEngine.UI.exe
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.UI\bin\Debug\App.PromotionEngine.UI.pdb
+C:\PocApp\App.PromotionEngine\Debug\App.PromotionEngine.UI.exe.config
+C:\PocApp\App.PromotionEngine\Debug\App.PromotionEngine.UI.exe
+C:\PocApp\App.PromotionEngine\Debug\App.PromotionEngine.UI.pdb
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.UI\obj\Debug\App.PromotionEngine.UI.csprojAssemblyReference.cache
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.UI\obj\Debug\App.PromotionEngine.UI.csproj.CoreCompileInputs.cache
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.UI\obj\Debug\App.PromotionEngine.UI.csproj.CopyComplete
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.UI\obj\Debug\App.PromotionEngine.UI.exe
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.UI\obj\Debug\App.PromotionEngine.UI.pdb

@@ -1,0 +1,13 @@
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.BusinessLogic.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.BusinessLogic.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.BusinessLogic.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.BusinessLogic.Test\bin\Debug\App.PromotionEngine.BusinessLogic.Test.dll
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.BusinessLogic.Test\bin\Debug\App.PromotionEngine.BusinessLogic.Test.pdb
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.BusinessLogic.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.BusinessLogic.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.BusinessLogic.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.BusinessLogic.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.BusinessLogic.Test\obj\Debug\App.PromotionEngine.BusinessLogic.Test.csproj.CoreCompileInputs.cache
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.BusinessLogic.Test\obj\Debug\App.PromotionEngine.BusinessLogic.Test.csproj.CopyComplete
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.BusinessLogic.Test\obj\Debug\App.PromotionEngine.BusinessLogic.Test.dll
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.BusinessLogic.Test\obj\Debug\App.PromotionEngine.BusinessLogic.Test.pdb

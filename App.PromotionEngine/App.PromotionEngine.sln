@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.PromotionEngine.UI", "App.PromotionEngine.UI\App.PromotionEngine.UI.csproj", "{9F930346-6F9C-4C2D-8901-2E6C325DBEF0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5B92D634-EF06-413F-9861-502499794F72} = {5B92D634-EF06-413F-9861-502499794F72}
+		{A173E77D-36AF-4752-8784-8431F91C422B} = {A173E77D-36AF-4752-8784-8431F91C422B}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.PromotionEngine.BusinessLogic", "App.PromotionEngine.BusinessLogic\App.PromotionEngine.BusinessLogic.csproj", "{A173E77D-36AF-4752-8784-8431F91C422B}"
 EndProject
