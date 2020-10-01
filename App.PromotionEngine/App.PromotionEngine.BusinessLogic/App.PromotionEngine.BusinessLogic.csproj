@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CartManager.cs" />
+    <Compile Include="ICartManager.cs" />
+    <Compile Include="IPromotionManager.cs" />
     <Compile Include="PromotionManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

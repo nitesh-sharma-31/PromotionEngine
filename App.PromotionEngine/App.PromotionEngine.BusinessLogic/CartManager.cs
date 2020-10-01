@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace App.PromotionEngine.BusinessLogic
 {
-    public class CartManager
+    public class CartManager : ICartManager
     {
         private List<Product> Cart = new List<Product>();
 
@@ -24,6 +24,11 @@ namespace App.PromotionEngine.BusinessLogic
         public List<Product> GetProducts()
         {
             return Cart;
+        }
+
+        public void ClearCart()
+        {
+            Cart.Clear();
         }
     }
 }

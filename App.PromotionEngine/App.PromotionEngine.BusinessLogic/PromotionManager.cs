@@ -7,15 +7,16 @@ using System.Threading.Tasks;
 
 namespace App.PromotionEngine.BusinessLogic
 {
-    public class PromotionManager
+    public class PromotionManager : IPromotionManager
     {
-        CartManager CartManager;
-        List<Promotion> AvailblePromotions;
+        ICartManager CartManager;
         List<Promotion> AppliedPromotions;
         Dictionary<string, double> UnitPrice;
         List<Product> tempProducts;
 
-        public PromotionManager(CartManager cartManager, Dictionary<string, double> unitPrice)
+        public List<Promotion> AvailblePromotions { get; set; }
+
+        public PromotionManager(ICartManager cartManager, Dictionary<string, double> unitPrice)
         {
             CartManager = cartManager;
             AvailblePromotions = new List<Promotion>();
