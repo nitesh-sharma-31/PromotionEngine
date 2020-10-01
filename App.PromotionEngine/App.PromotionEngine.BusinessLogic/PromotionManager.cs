@@ -23,35 +23,58 @@ namespace App.PromotionEngine.BusinessLogic
             UnitPrice = unitPrice;
         }
 
-        public void ApplyPromotion()
+        private void ApplyPromotion()
         {
             tempProducts = CartManager.GetProducts();
             
             foreach (var promo in AvailblePromotions)
             {
-                List<Product> matchProdutcs = new List<Product>();
-                int combinationToBeCalculate = promo.Combinations.Count;
-
-                foreach (var val in promo.Combinations)
+                while(IsPromoApplicable(promo.Combinations))
                 {
-                    var products = tempProducts.Where(x => x.Name == val.Key).ToList();
-                    matchProdutcs.AddRange(products);
+                    ApplyPromo(promo.Combinations);
+                    AppliedPromotions.Add(promo);
+                }
+            }
+        }
 
-                    if(products.Count() >= val.Value)
+        private bool IsPromoApplicable(Dictionary<string, int> combinations)
+        {
+            bool result = true;
+
+            foreach (var val in combinations)
+            {
+                var products = tempProducts.Where(x => x.Name == val.Key).ToList();
+
+                if (products.Count() < val.Value)
+                {
+                    result = false;
+                    break;
+                }
+            }
+
+            return result;
+        }
+
+        private void ApplyPromo(Dictionary<string, int> combinations)
+        {
+            List<Product> matchProdutcs = new List<Product>();
+            int combinationToBeCalculate = combinations.Count;
+
+            foreach (var val in combinations)
+            {
+                var products = tempProducts.Where(x => x.Name == val.Key).ToList();
+
+                if (products.Count() >= val.Value)
+                {
+                    for (int i = 0; i < val.Value; i++)
                     {
-                        combinationToBeCalculate = combinationToBeCalculate - 1;
-                        matchProdutcs.AddRange(products);
+                        matchProdutcs.Add(products[i]);
                     }
                 }
 
-                if(combinationToBeCalculate == 0)
+                foreach (var match in matchProdutcs)
                 {
-                    AppliedPromotions.Add(promo);
-
-                    foreach(var match in matchProdutcs)
-                    {
-                        tempProducts.Remove(match);
-                    }
+                    tempProducts.Remove(match);
                 }
             }
         }

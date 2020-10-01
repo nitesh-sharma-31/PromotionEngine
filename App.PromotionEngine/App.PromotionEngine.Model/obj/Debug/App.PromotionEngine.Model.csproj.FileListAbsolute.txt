@@ -2,6 +2,7 @@ C:\PocApp\App.PromotionEngine\App.PromotionEngine.Model\bin\Debug\App.PromotionE
 C:\PocApp\App.PromotionEngine\App.PromotionEngine.Model\bin\Debug\App.PromotionEngine.Model.pdb
 C:\PocApp\App.PromotionEngine\Debug\App.PromotionEngine.Model.dll
 C:\PocApp\App.PromotionEngine\Debug\App.PromotionEngine.Model.pdb
+C:\PocApp\App.PromotionEngine\App.PromotionEngine.Model\obj\Debug\App.PromotionEngine.Model.csprojAssemblyReference.cache
 C:\PocApp\App.PromotionEngine\App.PromotionEngine.Model\obj\Debug\App.PromotionEngine.Model.csproj.CoreCompileInputs.cache
 C:\PocApp\App.PromotionEngine\App.PromotionEngine.Model\obj\Debug\App.PromotionEngine.Model.dll
 C:\PocApp\App.PromotionEngine\App.PromotionEngine.Model\obj\Debug\App.PromotionEngine.Model.pdb
